@@ -125,7 +125,7 @@ async def amireallyalive(alive):
     await alive.edit("`"
                      "I'm alive, at your services....\n"
                      f"------------------------------------\n"
-                     f"•  User             : {DEFAULTUSER}\n"
+                     f"•  User             : [ᶦᶰᵈ᭄✿Ｒｅｎｃｏ࿐](https://t.me/RobekGANS)\n"
                      f"•  Python           : {python_version()}\n"
                      f"•  Telethon version : {version.__version__}\n"
                      f"------------------------------------\n"
