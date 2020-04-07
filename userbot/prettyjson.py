@@ -144,4 +144,3 @@ def indentitems(items, indent, level):
             else:
                 res += indentstr + item + "\n"            
     return res
-
