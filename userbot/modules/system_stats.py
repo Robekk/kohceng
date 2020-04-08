@@ -122,7 +122,7 @@ async def pipcheck(pip):
 @register(outgoing=True, pattern="^.alive$")
 async def amireallyalive(alive):
     """ For .on command, check if the bot is running.  """
-    await alive.edit("I'm alive...
+    await alive.edit("I'm alive...\n"
                      "and ready to the rock!!!!\n"
                      f"------------------------------------\n"
                      f"•  User             : [ᶦᶰᵈ᭄✿Ｒｅｎｃｏ࿐](https://t.me/RobekGANS)\n"
