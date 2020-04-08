@@ -125,11 +125,11 @@ async def amireallyalive(alive):
     await alive.edit(
 "I'm alive...\n"
 "and ready to the rock!!!!\n"
-f"------------------------------------\n"
+f"`------------------------------------\n`"
 f"•  User             : [ᶦᶰᵈ᭄✿Ｒｅｎｃｏ࿐](https://t.me/RobekGANS)\n"
 f"•  Python           : {python_version()}\n"
 f"•  Telethon version : {version.__version__}\n"
-f"------------------------------------\n")
+f"`------------------------------------\n`")
 
 
 @register(outgoing=True, pattern="^.aliveu")
